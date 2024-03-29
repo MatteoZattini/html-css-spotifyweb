@@ -48,6 +48,10 @@ main{
     align-items: center;
 }
 
+.justcenter{
+    justify-content: center;
+}
+
 .aligncenter{
     align-items: center;
 }
@@ -70,6 +74,10 @@ main{
 
 .w-30px{
     width: 50px;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 
@@ -99,6 +107,33 @@ nav{
 }
 
 /***********************
+        MAIN
+************************/
+.top-main{
+    width: 100%;
+    height: 3rem;
+    background-color: gray;
+}
+
+.top-main2{
+    width: 100%;
+}
+
+.top-main2 > a{
+    line-height: 2rem;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+
+
+
+
+/***********************
         FOOTER
 ************************/
 footer > div{
@@ -108,15 +143,15 @@ footer > div{
 
 .song{
     width: 100%;
-    height: 0.5rem;
+    height: 0.3rem;
     background-color: gray;
-    margin: 0 0.5rem;
+    margin: 0 0.3rem;
     border-radius: 5px;
 }
 
 .song2{
     width: 30%;
-    height: 0.5rem;
+    height: 0.3rem;
     background-color: white;
     border-radius: 5px;
     z-index: 2;
@@ -136,7 +171,7 @@ footer > div{
 
 .volume{
     width: 100px;
-    height: 0.5rem;
+    height: 0.3rem;
     background-color: gray;
     margin: 0 0.5rem;
     border-radius: 5px;
@@ -144,7 +179,7 @@ footer > div{
 
 .volume2{
     width: 30px;
-    height: 0.5rem;
+    height: 0.3rem;
     background-color: white;
     border-radius: 5px;
     z-index: 2;
