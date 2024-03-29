@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body{
@@ -13,6 +14,8 @@ footer{
     height: 5rem;
     width: 100%;
     background-color: #282828;
+    position: fixed;
+    color: white;
 }
 
 header{
@@ -36,6 +39,41 @@ main{
     justify-content: space-between;
 }
 
+.spcbtwn{
+    justify-content: space-between;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.aligncenter{
+    align-items: center;
+}
+
+.spceven{
+    justify-content: space-evenly;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.end{
+    justify-content: end;
+}
+
+.start{
+    justify-content: start;
+}
+
+.w-30px{
+    width: 50px;
+}
+
+
+
 /***********************
         NAV
 ************************/
@@ -54,4 +92,84 @@ nav{
 
 .bottom-nav > div{
     margin-top: 0.5rem;
+}
+
+.download{
+    width: 87%;
+}
+
+/***********************
+        FOOTER
+************************/
+footer > div{
+    width: calc(100% / 3);
+    height: 5rem;
+}
+
+.song{
+    width: 100%;
+    height: 0.5rem;
+    background-color: gray;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+}
+
+.song2{
+    width: 30%;
+    height: 0.5rem;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.top-middle{
+    margin: 0.5rem 0;
+}
+
+.fa-circle-play{
+    font-size: 2rem;
+}
+
+.left-footer{
+    margin: 0 0.5rem;
+}
+
+.volume{
+    width: 100px;
+    height: 0.5rem;
+    background-color: gray;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+}
+
+.volume2{
+    width: 30px;
+    height: 0.5rem;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.right-footer > i{
+    margin: 0 0.2rem;
+}
+
+.fa-solid{
+    font-size: 1rem;
+}
+
+.left-footer > p{
+    font-size: 0.8rem;
+}
+
+.center > p{
+    font-size: 0.8rem;
+}
+
+.middle{
+    padding: 0.5rem;
+}
+
+.right-footer > i{
+    font-size: 0.8rem;
 }
