@@ -103,6 +103,10 @@ h1, h2{
     gap: 1rem;
 }
 
+.none{
+    display: none;
+}
+
 
 
 /***********************
@@ -129,6 +133,14 @@ nav{
     width: 87%;
 }
 
+.nav-icon{
+    width: 30px;
+}
+
+.logo{
+    display: none;
+}
+
 /***********************
         MAIN
 ************************/
@@ -151,9 +163,19 @@ nav{
     margin-right: 0.5rem;
 }
 
+/*  CONTENUTO */
 
+.container{
+    width: 100%;
+}
 
+.card{
+    width: calc(100% / 2 - 1rem);
+}
 
+.card > p{
+    color: white;
+}
 
 
 /***********************
@@ -232,17 +254,65 @@ footer > div{
     font-size: 0.8rem;
 }
 
-/*  CONTENUTO */
+/***********************
+        MEDIA QUERIES
+************************/
 
-.container{
-    width: 100%;
-    height: 100%;
-}
+@media screen and (min-width: 768px) {
+    header{
+        width: 15rem;
+    }
 
-.card{
-    width: calc(100% / 2 - 1rem);
-}
+    .logo{
+        display: block;
+    }
 
-.card > p{
-    color: white;
+    .logo-small{
+        display: none;
+    }
+
+    .top-nav p{
+        color: white;
+    }
+
+    .bottom-nav p{
+        color: white;
+    }
+
+    .none{
+        display: inline-block;
+    }
+
+    .playlist > p{
+        line-height: 2rem;
+    }
+
+    .playlist > h2{
+        margin: 1rem 0;
+        font-size: 1rem;
+    }
+
+    .fa-plus{
+        background-color: gray;
+        padding: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .bottom-nav p{
+        margin-left: 0.5rem;
+    }
+
+    .top-nav p{
+        margin-left: 0.5rem;
+    }
+
+    .download{
+        margin-bottom: 0.5rem;
+    }
+
+    .card{
+        width: calc(100% / 4 - 2rem);
+        margin-left: 0.7rem;
+    }
+
 }
